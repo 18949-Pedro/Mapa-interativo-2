@@ -47,48 +47,48 @@ viewport.addEventListener("wheel", e => {
 
 //MARCADORES
 const benchMarkers = [
-    { x: 2016, y: 629, name: "Bench - Dirtmouth" },
-    { x: 2053, y: 835, name: "Bench - Encruzilhada Esquecida" },
-    { x: 2163, y: 915, name: "Bench - Encruzilhada Esquecida" },
-    { x: 2350, y: 906, name: "Bench - Encruzilhada Esquecida" },
-    { x: 2685, y: 1015, name: "Bench - Encruzilhada Esquecida" },
-    { x: 1407, y: 390, name: "Bench - Penhascos Uivantes" },
-    { x: 1441, y: 741, name: "Bench - Caminho Verde" },
-    { x: 582, y: 768, name: "Bench - Caminho Verde" },
-    { x: 479, y: 950, name: "Bench - Caminho Verde" },
-    { x: 910, y: 771, name: "Bench - Caminho Verde" },
-    { x: 1441, y: 741, name: "Bench - Caminho Verde" },
-    { x: 1091, y: 860, name: "Bench - Caminho Verde" },
-    { x: 1556, y: 1007, name: "Bench - Caminho Verde" },
-    { x: 2113, y: 1186, name: "Bench - Ermos Fúngicos" },
-    { x: 2113, y: 1752, name: "Bench - Ermos Fúngicos" },
-    { x: 1991, y: 1729, name: "Bench - Ermos Fúngicos" },
-    { x: 1497, y: 1456, name: "Bench - Estação da Rainha" },
-    { x: 1600, y: 1230, name: "Bench - Cânion da Névoa" },
-    { x: 1144, y: 1320, name: "Bench - Jardins da Rainha" },
-    { x: 858, y: 1367, name: "Bench - Jardins Fúngicosda Rainha" },
-    { x: 715, y: 1477, name: "Bench - Jardins da Rainha" },
-    { x: 1337, y: 1724, name: "Bench - Ninho Profundo" },
-    { x: 1419, y: 2078, name: "Bench - Ninho Profundo" },
-    { x: 326, y: 1862, name: "Bench - Ninho Profundo" },
-    { x: 2857, y: 524, name: "Bench - Pico de Cristal" },
-    { x: 2891, y: 855, name: "Bench - Pico de Cristal" },
-    { x: 2452, y: 1266, name: "Bench - Cidade das Lágrimas" },
-    { x: 2685, y: 1402, name: "Bench - Cidade das Lágrimas" },
-    { x: 2888, y: 1549, name: "Bench - Cidade das Lágrimas" },
-    { x: 2483, y: 1583, name: "Bench - Cidade das Lágrimas" },
-    { x: 3277, y: 1369, name: "Bench - Cidade das Lágrimas" },
-    { x: 3479, y: 1674, name: "Bench - Cidade das Lágrimas" },
-    { x: 3520, y: 860, name: "Bench - Terra do Descanso" },
-    { x: 3680, y: 949, name: "Bench - Terra do Descanso" },
-    { x: 3660, y: 1280, name: "Bench - Borda do Reino" },
-    { x: 4027, y: 1582, name: "Bench - Borda do Reino" },
-    { x: 4306, y: 1843, name: "Bench - Borda do Reino" },
-    { x: 3611, y: 2118, name: "Bench - Colmeia" },
-    { x: 2584, y: 1854, name: "Bench - Hidrovia Real" },
-    { x: 2120, y: 1972, name: "Bench - Hidrovia Real" },
-    { x: 2629, y: 2255, name: "Bench - Bacia Antiga" },
-    { x: 3201, y: 2233, name: "Bench - Bacia Antiga" }
+    { x: 2016, y: 629, name: "Banco - Dirtmouth" },
+    { x: 2053, y: 835, name: "Banco - Encruzilhada Esquecida" },
+    { x: 2163, y: 915, name: "Banco - Encruzilhada Esquecida" },
+    { x: 2350, y: 906, name: "Banco - Encruzilhada Esquecida" },
+    { x: 2685, y: 1015, name: "Banco - Encruzilhada Esquecida" },
+    { x: 1407, y: 390, name: "Banco - Penhascos Uivantes" },
+    { x: 1441, y: 741, name: "Banco - Caminho Verde" },
+    { x: 582, y: 768, name: "Banco - Caminho Verde" },
+    { x: 479, y: 950, name: "Banco - Caminho Verde" },
+    { x: 910, y: 771, name: "Banco - Caminho Verde" },
+    { x: 1441, y: 741, name: "Banco - Caminho Verde" },
+    { x: 1091, y: 860, name: "Banco - Caminho Verde" },
+    { x: 1556, y: 1007, name: "Banco - Caminho Verde" },
+    { x: 2113, y: 1186, name: "Banco - Ermos Fúngicos" },
+    { x: 2113, y: 1752, name: "Banco - Ermos Fúngicos" },
+    { x: 1991, y: 1729, name: "Banco - Ermos Fúngicos" },
+    { x: 1497, y: 1456, name: "Banco - Estação da Rainha" },
+    { x: 1600, y: 1230, name: "Banco - Cânion da Névoa" },
+    { x: 1144, y: 1320, name: "Banco - Jardins da Rainha" },
+    { x: 858, y: 1367, name: "Banco - Jardins Fúngicosda Rainha" },
+    { x: 715, y: 1477, name: "Banco - Jardins da Rainha" },
+    { x: 1337, y: 1724, name: "Banco - Ninho Profundo" },
+    { x: 1419, y: 2078, name: "Banco - Ninho Profundo" },
+    { x: 326, y: 1862, name: "Banco - Ninho Profundo" },
+    { x: 2857, y: 524, name: "Banco - Pico de Cristal" },
+    { x: 2891, y: 855, name: "Banco - Pico de Cristal" },
+    { x: 2452, y: 1266, name: "Banco - Cidade das Lágrimas" },
+    { x: 2685, y: 1402, name: "Banco - Cidade das Lágrimas" },
+    { x: 2888, y: 1549, name: "Banco - Cidade das Lágrimas" },
+    { x: 2483, y: 1583, name: "Banco - Cidade das Lágrimas" },
+    { x: 3277, y: 1369, name: "Banco - Cidade das Lágrimas" },
+    { x: 3479, y: 1674, name: "Banco - Cidade das Lágrimas" },
+    { x: 3520, y: 860, name: "Banco - Terra do Descanso" },
+    { x: 3680, y: 949, name: "Banco - Terra do Descanso" },
+    { x: 3660, y: 1280, name: "Banco - Borda do Reino" },
+    { x: 4027, y: 1582, name: "Banco - Borda do Reino" },
+    { x: 4306, y: 1843, name: "Banco - Borda do Reino" },
+    { x: 3611, y: 2118, name: "Banco - Colmeia" },
+    { x: 2584, y: 1854, name: "Banco - Hidrovia Real" },
+    { x: 2120, y: 1972, name: "Banco - Hidrovia Real" },
+    { x: 2629, y: 2255, name: "Banco - Bacia Antiga" },
+    { x: 3201, y: 2233, name: "Banco - Bacia Antiga" }
 ];
 
 const transportMarkers = [
@@ -115,9 +115,9 @@ const shopMarkers = [
 ];
 
 const SpringstMarkers = [
-    {x: 2141, y: 918, name: "Springs - Dirtmouth"},
-    {x: 3187, y: 1671, name: "Springs - Cidade das lagrimas"},
-    {x: 1417, y: 2075, name: "Springs - Ninho Profundo"}
+    {x: 2141, y: 918, name: "Fonte Termal - Dirtmouth"},
+    {x: 3187, y: 1671, name: "Fonte Termal - Cidade das lagrimas"},
+    {x: 1417, y: 2075, name: "Fonte Termal - Ninho Profundo"}
 ];
 
 const maskMarkers = [
@@ -351,78 +351,78 @@ const relicMarkers = [
 
 const grubMarkers = [
     // Encruzilhada Esquecida
-    {x: 1732, y: 933, name: "Grub #1 - Encruzilhada Esquecida"},
-    {x: 2123, y: 753, name: "Grub #2 - Encruzilhada Esquecida"},
-    {x: 2570, y: 704, name: "Grub #3 - Encruzilhada Esquecida"},
-    {x: 2458, y: 901, name: "Grub #4 - Encruzilhada Esquecida"},
-    {x: 2392, y: 838, name: "Grub #5 - Encruzilhada Esquecida"},
+    {x: 1732, y: 933, name: "Larva"},
+    {x: 2123, y: 753, name: "Larva"},
+    {x: 2570, y: 704, name: "Larva"},
+    {x: 2458, y: 901, name: "Larva"},
+    {x: 2392, y: 838, name: "Larva "},
     
     // Caminho Verde
-    {x: 1026, y: 704, name: "Grub #6 - Caminho Verde"},
-    {x: 1619, y: 871, name: "Grub #7 - Caminho Verde"},
-    {x: 1563, y: 978, name: "Grub #8 - Caminho Verde"},
-    {x: 1082, y: 1068, name: "Grub #9 - Caminho Verde"},
+    {x: 1026, y: 704, name: "Larva"},
+    {x: 1619, y: 871, name: "Larva "},
+    {x: 1563, y: 978, name: "Larva "},
+    {x: 1082, y: 1068, name: "Larva "},
     
      // Penhascos Uivantes
-    {x: 1315, y: 584, name: "Grub #10 - Penhascos Uivantes"},
+    {x: 1315, y: 584, name: "Larva"},
     
     // Ermos Fundicos
-    {x: 1884, y: 1435, name: "Grub #11 - Ermos Fundicos"},
-    {x: 1482, y: 1519, name: "Grub #12 - Ermos Fundicos"},
+    {x: 1884, y: 1435, name: "Larva"},
+    {x: 1482, y: 1519, name: "Larva"},
     
     // Canion da névua
-    {x: 1560, y: 1199, name: "Grub #13 - Canion da névua"},
+    {x: 1560, y: 1199, name: "Larva"},
     
     // gardins da Rainha
-    {x: 856, y: 1020, name: "Grub #14 - gardins da Rainha"},
-    {x: 498, y: 1148, name: "Grub #15 - gardins da Rainha"},
-    {x: 832, y: 1403, name: "Grub #16 - gardins da Rainha"},
+    {x: 856, y: 1020, name: "Larva"},
+    {x: 498, y: 1148, name: "Larva"},
+    {x: 832, y: 1403, name: "Larva"},
     
     // Ninho Profundo
-    {x: 313, y: 1848, name: "Grub #17 - Ninho Profundo"},
-    {x: 1612, y: 1628, name: "Grub #18 - Ninho Profundo"},
-    {x: 807, y: 1928, name: "Grub #19 - Ninho Profundo"},
-    {x: 1279, y: 1892, name: "Grub #20 - Ninho Profundo"},
-    {x: 1250, y: 2089, name: "Grub #21 - Ninho Profundo"},
+    {x: 313, y: 1848, name: "Larva"},
+    {x: 1612, y: 1628, name: "Larva"},
+    {x: 807, y: 1928, name: "Larva"},
+    {x: 1279, y: 1892, name: "Larva"},
+    {x: 1250, y: 2089, name: "Larva"},
     
     // Bacia Antiga
-    {x: 2203, y: 2163, name: "Grub #22 - Bacia Antiga"},
-    {x: 2525, y: 2150, name: "Grub #23 - Bacia Antiga"},
+    {x: 2203, y: 2163, name: "Larva"},
+    {x: 2525, y: 2150, name: "Larva"},
 
     // Borda do Reino
-    {x: 2379, y: 1943, name: "Grub #24 - Borda do Reino"},
-    {x: 7991, y: 1730, name: "Grub #25 - Borda do Reino"},
+    {x: 2379, y: 1943, name: "Larva"},
+    {x: 7991, y: 1730, name: "Larva"},
 
     // Colmeia
-    {x: 3901, y: 1910, name: "Grub #26 - Colmeia"},
-    {x: 3562, y: 1912, name: "Grub #27 - Colmeia"},
+    {x: 3901, y: 1910, name: "Larva"},
+    {x: 3562, y: 1912, name: "Larva"},
 
     //Cidade das Lagrimas
-    {x: 2513, y: 1297, name: "Grub #28 - Cidade das Lagrimas"},
-    {x: 2993, y: 1443, name: "Grub #29 - Cidade das Lagrimas"},
-    {x: 2747, y: 1479, name: "Grub #30 - Cidade das Lagrimas"},
-    {x: 3265, y: 1691, name: "Grub #31 - Cidade das Lagrimas"},
-    {x: 3570, y: 1724, name: "Grub #32 - Cidade das Lagrimas"},
-    {x: 3585, y: 1491, name: "Grub #33 - Cidade das Lagrimas"},
-    {x: 3602, y: 1491, name: "Grub #34 - Cidade das Lagrimas"},
-    {x: 3620, y: 1491, name: "Grub #35 - Cidade das Lagrimas"},
+    {x: 2513, y: 1297, name: "Larva"},
+    {x: 2993, y: 1443, name: "Larva"},
+    {x: 2747, y: 1479, name: "Larva"},
+    {x: 3265, y: 1691, name: "Larva"},
+    {x: 3570, y: 1724, name: "Larva"},
+    {x: 3585, y: 1491, name: "Larva"},
+    {x: 3602, y: 1491, name: "Larva"},
+    {x: 3620, y: 1491, name: "Larva"},
 
     // Hidrovia real
-    {x: 3386, y: 1786, name: "Grub #36 - Hidrovia real"},
-    {x: 3392, y: 1850, name: "Grub #37 - Hidrovia real"},
-    {x: 2551, y: 1823, name: "Grub #38 - Hidrovia real"},
+    {x: 3386, y: 1786, name: "Larva"},
+    {x: 3392, y: 1850, name: "Larva"},
+    {x: 2551, y: 1823, name: "Larva"},
 
     // Terra do descanço
-    {x: 3552, y: 982, name: "Grub #39 - Terra do descanço"},
+    {x: 3552, y: 982, name: "Larva"},
 
     // Pico de Cristal
-    {x: 3308, y: 754, name: "Grub #40 - Pico de Cristal"},
-    {x: 3402, y: 434, name: "Grub #41 - Pico de Cristal"},
-    {x: 2290, y: 646, name: "Grub #42 - Pico de Cristal"},
-    {x: 2808, y: 697, name: "Grub #43 - Pico de Cristal"},
-    {x: 2878, y: 601, name: "Grub #44 - Pico de Cristal"},
-    {x: 3056, y: 600, name: "Grub #45 - Pico de Cristal"},
-    {x: 2929, y: 722, name: "Grub #46 - Pico de Cristal"}
+    {x: 3308, y: 754, name: "Larva"},
+    {x: 3402, y: 434, name: "Larva"},
+    {x: 2290, y: 646, name: "Larva"},
+    {x: 2808, y: 697, name: "Larva"},
+    {x: 2878, y: 601, name: "Larva"},
+    {x: 3056, y: 600, name: "Larva"},
+    {x: 2929, y: 722, name: "Larva"}
 ];
 
 // Marcadores para Mapa 2 (Silksong)
@@ -564,36 +564,36 @@ const ss_shardBundleMarkers = [
 ];
 
 const ss_lostFleaMarkers = [
-    {x: 673, y: 1583, name: "Lost Flea"},
-    {x: 1195, y: 1532, name: "Lost Flea"},
-    {x: 1109, y: 1392, name: "Lost Flea"},
-    {x: 1472, y: 1259, name: "Lost Flea"},
-    {x: 1668, y: 1581, name: "Lost Flea"},
-    {x: 1811, y: 1653, name: "Lost Flea"},
-    {x: 1684, y: 1758, name: "Lost Flea"},
-    {x: 2307, y: 1704, name: "Lost Flea"},
-    {x: 2278, y: 1826, name: "Lost Flea"},
-    {x: 2564, y: 1638, name: "Lost Flea"},
-    {x: 1976, y: 1227, name: "Lost Flea"},
-    {x: 2193, y: 1287, name: "Lost Flea"},
-    {x: 2719, y: 1329, name: "Lost Flea"},
-    {x: 2521, y: 1163, name: "Lost Flea"},
-    {x: 1480, y: 1090, name: "Lost Flea"},
-    {x: 1661, y: 1075, name: "Lost Flea"},
-    {x: 2132, y: 1029, name: "Lost Flea"},
-    {x: 2685, y: 1046, name: "Lost Flea"},
-    {x: 2774, y: 712, name: "Lost Flea"},
-    {x: 2110, y: 642, name: "Lost Flea"},
-    {x: 2324, y: 548, name: "Lost Flea"},
-    {x: 2622, y: 477, name: "Lost Flea"},
-    {x: 669, y: 979, name: "Lost Flea"},
-    {x: 726, y: 926, name: "Lost Flea"},
-    {x: 987, y: 757, name: "Lost Flea"},
-    {x: 947, y: 653, name: "Lost Flea"},
-    {x: 562, y: 528, name: "Lost Flea"},
-    {x: 1953, y: 373, name: "Lost Flea"},
-    {x: 1564, y: 590, name: "Lost Flea"},
-    {x: 1492, y: 654, name: "Lost Flea"},
+ {x: 673, y: 1583, name: "Pulga Perdida"},
+    {x: 1195, y: 1532, name: "Pulga Perdida"},
+    {x: 1109, y: 1392, name: "Pulga Perdida"},
+    {x: 1472, y: 1259, name: "Pulga Perdida"},
+    {x: 1668, y: 1581, name: "Pulga Perdida"},
+    {x: 1811, y: 1653, name: "Pulga Perdida"},
+    {x: 1684, y: 1758, name: "Pulga Perdida"},
+    {x: 2307, y: 1704, name: "Pulga Perdida"},
+    {x: 2278, y: 1826, name: "Pulga Perdida"},
+    {x: 2564, y: 1638, name: "Pulga Perdida"},
+    {x: 1976, y: 1227, name: "Pulga Perdida"},
+    {x: 2193, y: 1287, name: "Pulga Perdida"},
+    {x: 2719, y: 1329, name: "Pulga Perdida"},
+    {x: 2521, y: 1163, name: "Pulga Perdida"},
+    {x: 1480, y: 1090, name: "Pulga Perdida"},
+    {x: 1661, y: 1075, name: "Pulga Perdida"},
+    {x: 2132, y: 1029, name: "Pulga Perdida"},
+    {x: 2685, y: 1046, name: "Pulga Perdida"},
+    {x: 2774, y: 712, name: "Pulga Perdida"},
+    {x: 2110, y: 642, name: "Pulga Perdida"},
+    {x: 2324, y: 548, name: "Pulga Perdida"},
+    {x: 2622, y: 477, name: "Pulga Perdida"},
+    {x: 669, y: 979, name: "Pulga Perdida"},
+    {x: 726, y: 926, name: "Pulga Perdida"},
+    {x: 987, y: 757, name: "Pulga Perdida"},
+    {x: 947, y: 653, name: "Pulga Perdida"},
+    {x: 562, y: 528, name: "Pulga Perdida"},
+    {x: 1953, y: 373, name: "Pulga Perdida"},
+    {x: 1564, y: 590, name: "Pulga Perdida"},
+    {x: 1492, y: 654, name: "Pulga Perdida"},
 ];
 
 const ss_shopMarkers = [
